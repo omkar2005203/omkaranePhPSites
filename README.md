@@ -1,4 +1,4 @@
 # omkaranePhPSites
 Php site development
 
-Visit @ https://omkarane.herokuapp.com/switchstatement.php
+Visit @ https://omkarane.herokuapp.com
