@@ -23,5 +23,5 @@ echo "<h3>Output :</h3>";
     echo '<h1> My Name is:'.$name.'</h1>';
     echo '<h2>My age is :'.$age.'</h2>';
     ?>
-  
-    <?php require 'includes/footer.php' ?>
+
+<?php require 'includes/footer.php' ?>
