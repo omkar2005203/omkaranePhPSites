@@ -2,7 +2,13 @@
 $title="Switch Statement";
 include 'includes/header.php' ?>
     <h1>Switch Statement</h1>
+<?php
+echo "<h3>Source Code:</h3>";
+$fileName='switchstatement.php';
+show_source($fileName);
+?>
     <?php
+    echo "<h3>Output:</h3>";
     $grade = 'A';
 
     switch($grade){

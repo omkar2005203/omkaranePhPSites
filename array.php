@@ -2,8 +2,15 @@
 $title="Arrays";
 include 'includes/header.php' 
 ?>
+<h1> Arrays</h1>
+<?php
+echo "<h3>Source Code:</h3>";
+$fileName='array.php';
+show_source($fileName);
+?>
     
-    <?php
+<?php
+    echo "<h3>Output:</h3>";
     $num=3;
 
     $numbers = array(11,21,25,44,54,60,70,81,91,10);
@@ -20,7 +27,7 @@ include 'includes/header.php'
 
     }
 
-    ?>
+?>
 
 <?php require 'includes/footer.php' ?>
 

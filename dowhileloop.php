@@ -2,8 +2,14 @@
 $title="While loop";
 include 'includes/header.php' ?>
 <h1>While loop</h1>
-    <?php
+<?php
+echo "<h3>Source Code:</h3>";
+$fileName='dowhileloop.php';
+show_source($fileName);
+?>
 
+<?php
+echo "<h3>Output:</h3>";
     $grade=0;
 
     do{
@@ -11,7 +17,6 @@ include 'includes/header.php' ?>
         $grade++;
     }while($grade<10)
 
-
-    ?>
+?>
 
 <?php require 'includes/footer.php' ?>

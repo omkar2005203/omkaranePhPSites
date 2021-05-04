@@ -2,8 +2,14 @@
 $title="if statement";
 include 'includes/header.php' ?>
 
-<h1>Switch Statement</h1>
+<h1>if-else and elif Statement</h1>
+<?php
+echo "<h3>Source Code:</h3>";
+$fileName='ifstatement.php';
+show_source($fileName);
+?>
     <?php
+    echo '<h3>Output: </h3>';
     echo '<h2>if statement</h2>';
 
     $grade=90;
