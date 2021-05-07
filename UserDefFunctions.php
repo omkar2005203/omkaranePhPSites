@@ -1,10 +1,17 @@
 <?php
 $title="User Defined Functions";
 include 'includes/header.php' ?>
-    <h1>User Defined Functions</h1>
+<h1 class='text-primary'>User Defined Functions</h1>
+</br> 
+<?php
+echo "<h3 class='text-primary'>Source Code:</h3>";
+$fileName='UserDefFunctions.php';
+show_source($fileName);
+?>
 
 
     <?php
+    echo "<h3 class='text-primary'>Output:</h3>";
 
     /* Defining function */
 

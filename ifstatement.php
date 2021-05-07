@@ -2,15 +2,21 @@
 $title="if statement";
 include 'includes/header.php' ?>
 
-<h1>Switch Statement</h1>
+<h1 class='text-primary'>if-else and elif Statement</h1>
+</br> 
+<?php
+echo "<h3 class='text-primary'>Source Code:</h3>";
+$fileName='ifstatement.php';
+show_source($fileName);
+?>
     <?php
+    echo "<h3 class='text-primary'>Output: </h3>";
     echo '<h2>if statement</h2>';
 
     $grade=90;
 
     if($grade>=50){
         echo '<h3 style="color:green">You have passed</h3>';
-
     }
     else{
         echo '<h3 style="color:red">You have failed</h3>';
@@ -23,12 +29,10 @@ include 'includes/header.php' ?>
     }
     elseif($grade=='B'){
         echo '<h3 style="color:blue>You did well  !</h3>';
-
     }
     else{
         echo '<h3 style="color:red>You need to improve !</h3>';
     }
-
 
     ?>
 

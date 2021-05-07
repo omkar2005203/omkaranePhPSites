@@ -1,9 +1,16 @@
 <?php 
 $title="String Manipulation";
 include 'includes/header.php' ?>
-<h1>String Manipulation</h1>
+<h1 class='text-primary'>String Manipulation</h1>
+</br> 
+<?php
+echo "<h3 class='text-primary'>Source Code:</h3>";
+$fileName='DateAndTime.php';
+show_source($fileName);
+?>
 
 <?php
+echo "<h3 class='text-primary'>Output:</h3>";
 $phrase1="student who came late";
 $phrase2="in class,stand with rock";
 
