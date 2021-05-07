@@ -1,14 +1,15 @@
 <?php 
 $title="Switch Statement";
 include 'includes/header.php' ?>
-    <h1>Switch Statement</h1>
+<h1 class='text-primary'>Switch Statement</h1>
+</br> 
 <?php
-echo "<h3>Source Code:</h3>";
+echo "<h3 class='text-primary'>Source Code:</h3>";
 $fileName='switchstatement.php';
 show_source($fileName);
 ?>
     <?php
-    echo "<h3>Output:</h3>";
+    echo "<h3 class='text-primary'>Output:</h3>";
     $grade = 'A';
 
     switch($grade){
