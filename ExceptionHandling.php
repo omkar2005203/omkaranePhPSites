@@ -15,9 +15,10 @@ show_source($fileName); // to show source code
 echo "<h3 class='text-primary' >Output:</h3>";
 Class NewClass{
 
+    
+
 }
 ?>
-heroku apps:rename phpref --app omkarane
-https://git.heroku.com/phpref.git
+
 
 <?php require 'includes/footer.php' ?>
