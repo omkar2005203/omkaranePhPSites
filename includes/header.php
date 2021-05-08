@@ -40,6 +40,7 @@
     <li><a href="DeleteObject.php">Delete Object</a></li>
     <li><a href="AutoLoadClass.php">Auto Load Classes</a></li>
     <li><a href="TypeDeclar.php">Type Declarations</a></li>
+    <li><a href="ExceptionHandling.php">Exception handling</a></li>
     
 
     
